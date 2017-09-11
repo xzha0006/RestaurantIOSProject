@@ -20,11 +20,16 @@
 		E253467B1F5A1FA500FB9500 /* PopUpColorPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253467A1F5A1FA500FB9500 /* PopUpColorPickerController.swift */; };
 		E253467D1F5CF69E00FB9500 /* SingleRestaurantScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253467C1F5CF69E00FB9500 /* SingleRestaurantScreenController.swift */; };
 		E253467F1F5CF6E000FB9500 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253467E1F5CF6E000FB9500 /* RestaurantCell.swift */; };
+		E25346811F5D6B9F00FB9500 /* RestaurantCreateEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25346801F5D6B9F00FB9500 /* RestaurantCreateEditController.swift */; };
+		E25346831F5EA12E00FB9500 /* RestaurantDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25346821F5EA12E00FB9500 /* RestaurantDetailController.swift */; };
+		E25346851F5F8DDE00FB9500 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25346841F5F8DDE00FB9500 /* MapViewController.swift */; };
+		E25346871F600AAF00FB9500 /* RestaurantAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25346861F600AAF00FB9500 /* RestaurantAnnotation.swift */; };
+		E253468F1F61108700FB9500 /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253468E1F61108700FB9500 /* FloatRatingView.swift */; };
+		E25346911F62BCAD00FB9500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25346901F62BCAD00FB9500 /* Assets.xcassets */; };
 		E2859FB11F52A89F00D32051 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2859FB01F52A89F00D32051 /* AppDelegate.swift */; };
 		E2859FB31F52A89F00D32051 /* HomeScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2859FB21F52A89F00D32051 /* HomeScreenController.swift */; };
 		E2859FB61F52A89F00D32051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2859FB41F52A89F00D32051 /* Main.storyboard */; };
 		E2859FB91F52A89F00D32051 /* AS1RestaurantApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2859FB71F52A89F00D32051 /* AS1RestaurantApp.xcdatamodeld */; };
-		E2859FBB1F52A89F00D32051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2859FBA1F52A89F00D32051 /* Assets.xcassets */; };
 		E2859FBE1F52A89F00D32051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2859FBC1F52A89F00D32051 /* LaunchScreen.storyboard */; };
 		E2859FC91F52A89F00D32051 /* AS1RestaurantAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2859FC81F52A89F00D32051 /* AS1RestaurantAppTests.swift */; };
 		E2859FD41F52A89F00D32051 /* AS1RestaurantAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2859FD31F52A89F00D32051 /* AS1RestaurantAppUITests.swift */; };
@@ -63,12 +68,17 @@
 		E253467A1F5A1FA500FB9500 /* PopUpColorPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopUpColorPickerController.swift; path = AS1RestaurantApp/PopUpColorPickerController.swift; sourceTree = "<group>"; };
 		E253467C1F5CF69E00FB9500 /* SingleRestaurantScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SingleRestaurantScreenController.swift; path = AS1RestaurantApp/SingleRestaurantScreenController.swift; sourceTree = "<group>"; };
 		E253467E1F5CF6E000FB9500 /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestaurantCell.swift; path = AS1RestaurantApp/RestaurantCell.swift; sourceTree = "<group>"; };
+		E25346801F5D6B9F00FB9500 /* RestaurantCreateEditController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestaurantCreateEditController.swift; path = AS1RestaurantApp/RestaurantCreateEditController.swift; sourceTree = "<group>"; };
+		E25346821F5EA12E00FB9500 /* RestaurantDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestaurantDetailController.swift; path = AS1RestaurantApp/RestaurantDetailController.swift; sourceTree = "<group>"; };
+		E25346841F5F8DDE00FB9500 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = AS1RestaurantApp/MapViewController.swift; sourceTree = "<group>"; };
+		E25346861F600AAF00FB9500 /* RestaurantAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestaurantAnnotation.swift; path = AS1RestaurantApp/RestaurantAnnotation.swift; sourceTree = "<group>"; };
+		E253468E1F61108700FB9500 /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatRatingView.swift; path = AS1RestaurantApp/RatingStarView/FloatRatingView.swift; sourceTree = "<group>"; };
+		E25346901F62BCAD00FB9500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = AS1RestaurantApp/Assets.xcassets; sourceTree = "<group>"; };
 		E2859FAD1F52A89F00D32051 /* AS1RestaurantApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AS1RestaurantApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2859FB01F52A89F00D32051 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AS1RestaurantApp/AppDelegate.swift; sourceTree = "<group>"; };
 		E2859FB21F52A89F00D32051 /* HomeScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeScreenController.swift; path = AS1RestaurantApp/HomeScreenController.swift; sourceTree = "<group>"; };
 		E2859FB51F52A89F00D32051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2859FB81F52A89F00D32051 /* AS1RestaurantApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AS1RestaurantApp.xcdatamodel; sourceTree = "<group>"; };
-		E2859FBA1F52A89F00D32051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = AS1RestaurantApp/Assets.xcassets; sourceTree = "<group>"; };
 		E2859FBD1F52A89F00D32051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2859FBF1F52A89F00D32051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = AS1RestaurantApp/Info.plist; sourceTree = "<group>"; };
 		E2859FC41F52A89F00D32051 /* AS1RestaurantAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AS1RestaurantAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +127,15 @@
 				E25346741F590D4300FB9500 /* SwiftHSVColorPicker.swift */,
 			);
 			name = ColorPicker;
+			sourceTree = "<group>";
+		};
+		E253468D1F61107000FB9500 /* RatingStarView */ = {
+			isa = PBXGroup;
+			children = (
+				E25346901F62BCAD00FB9500 /* Assets.xcassets */,
+				E253468E1F61108700FB9500 /* FloatRatingView.swift */,
+			);
+			name = RatingStarView;
 			sourceTree = "<group>";
 		};
 		E2859FA41F52A89F00D32051 = {
@@ -169,6 +188,7 @@
 		E2859FEC1F54F93100D32051 /* AS1RestaurantApp */ = {
 			isa = PBXGroup;
 			children = (
+				E253468D1F61107000FB9500 /* RatingStarView */,
 				E253466F1F590D3100FB9500 /* ColorPicker */,
 				E253466B1F590D0A00FB9500 /* CategoryCreateEditController.swift */,
 				E253467C1F5CF69E00FB9500 /* SingleRestaurantScreenController.swift */,
@@ -176,7 +196,10 @@
 				E2859FB01F52A89F00D32051 /* AppDelegate.swift */,
 				E2859FB21F52A89F00D32051 /* HomeScreenController.swift */,
 				E2859FB41F52A89F00D32051 /* Main.storyboard */,
-				E2859FBA1F52A89F00D32051 /* Assets.xcassets */,
+				E25346841F5F8DDE00FB9500 /* MapViewController.swift */,
+				E25346861F600AAF00FB9500 /* RestaurantAnnotation.swift */,
+				E25346821F5EA12E00FB9500 /* RestaurantDetailController.swift */,
+				E25346801F5D6B9F00FB9500 /* RestaurantCreateEditController.swift */,
 				E2859FBC1F52A89F00D32051 /* LaunchScreen.storyboard */,
 				E2859FBF1F52A89F00D32051 /* Info.plist */,
 				E2859FB71F52A89F00D32051 /* AS1RestaurantApp.xcdatamodeld */,
@@ -266,6 +289,7 @@
 				TargetAttributes = {
 					E2859FAC1F52A89F00D32051 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = D7P83DG5E7;
 						ProvisioningStyle = Automatic;
 					};
 					E2859FC31F52A89F00D32051 = {
@@ -306,7 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2859FBE1F52A89F00D32051 /* LaunchScreen.storyboard in Resources */,
-				E2859FBB1F52A89F00D32051 /* Assets.xcassets in Resources */,
+				E25346911F62BCAD00FB9500 /* Assets.xcassets in Resources */,
 				E2859FB61F52A89F00D32051 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,7 +357,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E253467D1F5CF69E00FB9500 /* SingleRestaurantScreenController.swift in Sources */,
+				E25346831F5EA12E00FB9500 /* RestaurantDetailController.swift in Sources */,
 				E253466A1F590CFE00FB9500 /* RestaurantCategory+CoreDataProperties.swift in Sources */,
+				E25346851F5F8DDE00FB9500 /* MapViewController.swift in Sources */,
 				E25346681F590CFE00FB9500 /* Restaurant+CoreDataProperties.swift in Sources */,
 				E2859FB91F52A89F00D32051 /* AS1RestaurantApp.xcdatamodeld in Sources */,
 				E253466C1F590D0A00FB9500 /* CategoryCreateEditController.swift in Sources */,
@@ -343,12 +369,15 @@
 				E253467B1F5A1FA500FB9500 /* PopUpColorPickerController.swift in Sources */,
 				E2859FB31F52A89F00D32051 /* HomeScreenController.swift in Sources */,
 				E25346791F590D4300FB9500 /* SwiftHSVColorPicker.swift in Sources */,
+				E25346871F600AAF00FB9500 /* RestaurantAnnotation.swift in Sources */,
 				E25346691F590CFE00FB9500 /* RestaurantCategory+CoreDataClass.swift in Sources */,
 				E25346761F590D4300FB9500 /* ColorUtils.swift in Sources */,
 				E2859FB11F52A89F00D32051 /* AppDelegate.swift in Sources */,
 				E25346751F590D4300FB9500 /* BrightnessView.swift in Sources */,
+				E253468F1F61108700FB9500 /* FloatRatingView.swift in Sources */,
 				E25346781F590D4300FB9500 /* SelectedColorView.swift in Sources */,
 				E25346771F590D4300FB9500 /* ColorWheel.swift in Sources */,
+				E25346811F5D6B9F00FB9500 /* RestaurantCreateEditController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +532,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = D7P83DG5E7;
 				INFOPLIST_FILE = AS1RestaurantApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.monash.AS1RestaurantApp;
@@ -516,6 +546,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = D7P83DG5E7;
 				INFOPLIST_FILE = AS1RestaurantApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.monash.AS1RestaurantApp;

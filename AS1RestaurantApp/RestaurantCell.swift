@@ -12,13 +12,17 @@ class RestaurantCell: UITableViewCell {
 
     @IBOutlet weak var nameLabel: UILabel!
     
+    @IBOutlet weak var ratingLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
     
     @IBOutlet weak var dateLabel: UILabel!
     
-    @IBOutlet weak var ratingLabel: UILabel!
+    @IBOutlet weak var ratingView: FloatRatingView!
     
     @IBOutlet weak var logoImageView: UIImageView!
+    
+    var row: Int!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -29,5 +33,5 @@ class RestaurantCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
 }

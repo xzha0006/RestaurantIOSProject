@@ -1,0 +1,7 @@
+In my project, I used the following resources to polish User Interface:
+
+1. FloatRatingView 
+https://github.com/glenyi/FloatRatingView
+
+2. SwiftHSVColorPicker
+https://github.com/johankasperi/SwiftHSVColorPicker

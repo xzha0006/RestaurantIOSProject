@@ -20,6 +20,7 @@ extension RestaurantCategory {
     @NSManaged public var color: NSData?
     @NSManaged public var icon: NSData?
     @NSManaged public var enable: Bool
+    @NSManaged public var order: Int32
     @NSManaged public var restaurants: NSSet?
 
 }

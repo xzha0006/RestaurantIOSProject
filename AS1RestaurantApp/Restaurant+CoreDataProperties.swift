@@ -21,6 +21,9 @@ extension Restaurant {
     @NSManaged public var addedDate: NSDate?
     @NSManaged public var rating: Double
     @NSManaged public var enable: Bool
+    @NSManaged public var notified: Bool
+    @NSManaged public var notifiedRadius: Double
+    @NSManaged public var order: Int32
     @NSManaged public var latitude: Double
     @NSManaged public var longitude: Double
     @NSManaged public var logo: NSData?

@@ -12,6 +12,7 @@ class CategoryCell: UITableViewCell {
 
     @IBOutlet weak var iconImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
+    var row: Int!
     
     override func awakeFromNib() {
         super.awakeFromNib()
